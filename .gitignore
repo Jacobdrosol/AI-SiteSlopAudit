@@ -1,0 +1,21 @@
+node_modules/
+dist/
+out/
+report.json
+report.html
+screenshots/
+*.log
+.env
+.env.*
+!.env.example
+
+# Playwright storage state: contains session tokens, never commit
+.slopaudit-auth.json
+.slopaudit-admin.json
+.slopaudit-*.json
+*storage-state*.json
+
+# Local audit output
+reports/
+coverage/
+*.tsbuildinfo
